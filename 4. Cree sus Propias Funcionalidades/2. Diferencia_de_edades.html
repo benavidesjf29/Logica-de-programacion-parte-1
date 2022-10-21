@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+
+<h3>Diferencia de Edades</h3>
+
+<script>
+
+	//Codigo para sacar la diferencia de edades entre dos personas.
+
+	//Función para ahcer salto de linea	.
+	function saltarLinea() {
+	
+		document.write("<br><br>");
+
+	}
+
+	//Función para imprimir texto.
+	function imprimir(texto) {
+
+		document.write(texto);
+		saltarLinea();
+
+	}
+
+	//Función para para hacer el calculo.
+	function calcularEdades(edad1,edad2) {
+
+		let resultado = edad1 - edad2;
+		return resultado;
+
+	}
+
+	imprimir("Nuestra diferencia de edad es : " + calcularEdades(27,22));
+
+</script>
